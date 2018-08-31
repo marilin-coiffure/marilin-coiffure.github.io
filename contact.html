@@ -28,6 +28,9 @@ jQuery(window).load(function () {
 });
 </script>
 <style>
+span.protectedNumber {
+  width: 200px;
+}
 span.protectedNumber:after{
     content: attr(title);
 }
@@ -91,8 +94,9 @@ span.protectedNumber:after{
           <address class="address-1">
           <strong>Avenue des Bains 7<br>
           1400 Yverdon-les-Bains<br></strong>
-          <div class="overflow"> 
-            <span class="protectedNumber" title="???"></span><br>
+          <div class="overflow">
+            <span class="protectedNumber" title="+41 79 522 24 22"></span><br />
+          </div>
           </address>
         </article>
       </div>

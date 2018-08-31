@@ -1,7 +1,7 @@
 $('document').ready(function(){
 
     var i;
-    for (i = 1; i <= 5; i++) {
+    for (i = 1; i <= 3; i++) {
 
         var cl;
         if (i % 4 == 0) {
